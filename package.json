@@ -1,0 +1,33 @@
+{
+  "name": "pua",
+  "version": "0.0.1",
+  "description": "Checks your package.json for available upgrades",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rekibnikufesin/pua"
+  },
+  "keywords": [
+    "pua",
+    "node",
+    "package.json",
+    "updates"
+  ],
+  "author": "Will Button",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "pua": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/rekibnikufesin/pua/issues"
+  },
+  "homepage": "https://github.com/rekibnikufesin/pua",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.5"
+  }
+}
