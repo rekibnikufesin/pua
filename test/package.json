@@ -39,7 +39,11 @@
   },
   "devDependencies": {
     "supertest": "^0.14.0",
-    "winston": "~1.5.4",
+    "cookie-parser": "~0.3.2",
+    "compression": "1.2.0",
+    "connect-mongo": "~0.4.1",
+    "method-override": "~2.3.0",
+    "morgan": "~1.4.1",
     "should": "*",
     "grunt-env": "http://thisaintreal.io"
   }
